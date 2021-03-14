@@ -1,7 +1,7 @@
 {
   "main.css": "/blockchain-news-sharing/static/css/main.db6ade80.chunk.css",
-  "main.js": "/blockchain-news-sharing/static/js/main.01ab2e91.chunk.js",
-  "main.js.map": "/blockchain-news-sharing/static/js/main.01ab2e91.chunk.js.map",
+  "main.js": "/blockchain-news-sharing/static/js/main.f8d892a6.chunk.js",
+  "main.js.map": "/blockchain-news-sharing/static/js/main.f8d892a6.chunk.js.map",
   "static/css/1.0bfc8b26.chunk.css": "/blockchain-news-sharing/static/css/1.0bfc8b26.chunk.css",
   "static/js/1.de136e66.chunk.js": "/blockchain-news-sharing/static/js/1.de136e66.chunk.js",
   "static/js/1.de136e66.chunk.js.map": "/blockchain-news-sharing/static/js/1.de136e66.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.0bfc8b26.chunk.css.map": "/blockchain-news-sharing/static/css/1.0bfc8b26.chunk.css.map",
   "static/css/main.db6ade80.chunk.css.map": "/blockchain-news-sharing/static/css/main.db6ade80.chunk.css.map",
   "index.html": "/blockchain-news-sharing/index.html",
-  "precache-manifest.10a755ee3ded11dca8519e1b6bf80f8f.js": "/blockchain-news-sharing/precache-manifest.10a755ee3ded11dca8519e1b6bf80f8f.js",
+  "precache-manifest.9ad29b3e18acc30bd0bbccacce494a91.js": "/blockchain-news-sharing/precache-manifest.9ad29b3e18acc30bd0bbccacce494a91.js",
   "service-worker.js": "/blockchain-news-sharing/service-worker.js"
 }
