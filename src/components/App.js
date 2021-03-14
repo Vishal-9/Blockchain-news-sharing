@@ -28,10 +28,10 @@ class App extends Component {
 
   async loadBlockchainData() {
     const web3 = window.web3
-    // Load account
+    
     const accounts = await web3.eth.getAccounts()
     this.setState({ account: accounts[0] })
-    // Network ID
+    
     const networkId = await web3.eth.net.getId()
     const networkData = SocialNetwork.networks[networkId]
     if(networkData) {
@@ -39,14 +39,14 @@ class App extends Component {
       this.setState({ socialNetwork })
       const postCount = await socialNetwork.methods.postCount().call()
       this.setState({ postCount })
-      // Load Posts
+      
       for (var i = 1; i <= postCount; i++) {
         const post = await socialNetwork.methods.posts(i).call()
         this.setState({
           posts: [...this.state.posts, post]
         })
       }
-      // Sort posts. Show highest tipped posts first
+      
       this.setState({
         posts: this.state.posts.sort((a,b) => b.tipAmount - a.tipAmount )
       })
